@@ -7,8 +7,10 @@ Use the GitHub API to autmatically create teams, repos and add users to them.
 
 ## Usage
 
-Create a personal access token in <https://github.com/settings/tokens> and
-create a file named `.env` containing the following:
+Create a personal access token in <https://github.com/settings/tokens>.
+
+Clone this repo, cd into it and create a file named `.env` containing the
+following:
 
 ```
 ACCESS_TOKEN='your-access-token'
