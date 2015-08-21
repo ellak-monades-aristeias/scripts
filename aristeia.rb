@@ -2,6 +2,10 @@
 
 require 'octokit'
 
+# Enable auto-pagination
+# https://github.com/octokit/octokit.rb#auto-pagination
+Octokit.auto_paginate = true
+
 # Authenticate using a token of ellakdev user
 @client = Octokit::Client.new(:access_token => ENV['ACCESS_TOKEN'])
 
