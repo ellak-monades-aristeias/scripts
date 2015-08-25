@@ -56,7 +56,7 @@ teams = {
 # It is something like a hash but again not...
 github_teams = @client.organization_teams('ellak-monades-aristeias')
 
-# Return a Hash of existing teams with their id
+# Return a Hash of existing teams with their id { team-name, id }
 github_teams_ids = github_teams.inject({}) do |ary,elmt|
   ary[elmt[:name]] = elmt[:id]
   ary
