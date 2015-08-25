@@ -4,6 +4,7 @@ Use the GitHub API to autmatically create teams, repos and add users to them.
 
 1. Ruby
 1. Install required gems:
+
   ```
   gem install octokit
   gem install dotenv
@@ -11,7 +12,8 @@ Use the GitHub API to autmatically create teams, repos and add users to them.
 
 ## Usage
 
-Create a personal access token in <https://github.com/settings/tokens>.
+As an owner of the organization, create a personal access token in
+<https://github.com/settings/tokens>.
 
 Clone this repo, cd into it and create a file named `.env` containing the
 following:
