@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'octokit'
+require 'dotenv'
+Dotenv.load
 
 # Enable auto-pagination
 # https://github.com/octokit/octokit.rb#auto-pagination

@@ -3,7 +3,11 @@ Use the GitHub API to autmatically create teams, repos and add users to them.
 ## Requirements
 
 1. Ruby
-2. Install `octokit` with: `gem install octokit`
+1. Install required gems:
+  ```
+  gem install octokit
+  gem install dotenv
+  ```
 
 ## Usage
 
@@ -16,11 +20,12 @@ following:
 ACCESS_TOKEN='your-access-token'
 ```
 
-Run the script with:
+Run the script:
 
 ```
-source .env
 ruby aristeia.rb
 ```
 
-Add new teams by editing the `teams` hash.
+### Add new teams
+
+Add new teams by editing the `teams` hash in the script and run it again.
