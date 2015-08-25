@@ -16,10 +16,11 @@ As an owner of the organization, create a personal access token in
 <https://github.com/settings/tokens>.
 
 Clone this repo, cd into it and create a file named `.env` containing the
-following:
+following variables:
 
 ```
 ACCESS_TOKEN='your-access-token'
+ORGANIZATION='organization-name'
 ```
 
 Run the script:

@@ -4,12 +4,15 @@ require 'octokit'
 require 'dotenv'
 Dotenv.load
 
+TOKEN = ENV['ACCESS_TOKEN']
+ORGNAME = ENV['ORGANIZATION']
+
 # Enable auto-pagination
 # https://github.com/octokit/octokit.rb#auto-pagination
 Octokit.auto_paginate = true
 
 # Authenticate using a token of an org owner
-@client = Octokit::Client.new(:access_token => ENV['ACCESS_TOKEN'])
+@client = Octokit::Client.new(:access_token => TOKEN)
 
 # Hash of { team, member } to be created
 teams = {
@@ -54,7 +57,7 @@ teams = {
 
 # Existing teams, returns an array of Sawyer::Resource objects
 # It is something like a hash but again not...
-github_teams = @client.organization_teams('ellak-monades-aristeias')
+github_teams = @client.organization_teams(ORGNAME)
 
 # Return a Hash of existing teams with their id { team-name, id }
 github_teams_ids = github_teams.inject({}) do |ary,elmt|
@@ -69,7 +72,7 @@ end.compact
 
 # Get a team's id
 def get_team_id(name)
-  @client.organization_teams('ellak-monades-aristeias').select do |team|
+  @client.organization_teams(ORGNAME).select do |team|
     team[:name] == name
   end.first[:id]
 end
@@ -84,7 +87,7 @@ teams.keys.each do |team|
     begin
       # Create repository
       # http://octokit.github.io/octokit.rb/Octokit/Client/Repositories.html#create_repository-instance_method
-      @client.create_repo(team, { :organization => 'ellak-monades-aristeias' })
+      @client.create_repo(team, { :organization => ORGNAME })
       puts "Created repo: #{team}..."
     rescue Octokit::UnprocessableEntity
       puts "#{team} - skipping repo creation..."
@@ -92,7 +95,7 @@ teams.keys.each do |team|
     begin
       # Create team and add repository to it
       # http://octokit.github.io/octokit.rb/Octokit/Client/Organizations.html#create_team-instance_method
-      @client.create_team('ellak-monades-aristeias', { :name => team, :repo_names => ["ellak-monades-aristeias/#{team}"], :permission => 'admin' })
+      @client.create_team(ORGNAME, { :name => team, :repo_names => ["#{ORGNAME}/#{team}"], :permission => 'admin' })
       puts "Created team: #{team}..."
     rescue Octokit::UnprocessableEntity
       puts "#{team} - skipping team creation..."
