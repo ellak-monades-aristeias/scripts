@@ -85,7 +85,7 @@ teams.keys.each do |team|
     begin
       # Create team and add repository to it
       # http://octokit.github.io/octokit.rb/Octokit/Client/Organizations.html#create_team-instance_method
-      @client.create_team('ellak-monades-aristeias', { :name => team, :repo_names => [team], :permission => 'admin' })
+      @client.create_team('ellak-monades-aristeias', { :name => team, :repo_names => ["ellak-monades-aristeias/#{team}"], :permission => 'admin' })
       puts "Created team: #{team}..."
     rescue Octokit::UnprocessableEntity
       puts "#{team} - skipping team creation..."
