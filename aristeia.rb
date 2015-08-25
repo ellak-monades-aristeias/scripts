@@ -53,6 +53,7 @@ teams = {
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
+# It is something like a hash but again not...
 github_teams = @client.organization_teams('ellak-monades-aristeias')
 
 # Return a Hash of existing teams with their id
