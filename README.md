@@ -1,4 +1,4 @@
-Use the GitHub API to autmatically create teams, repos and add users to them.
+Use the GitHub API to automatically create teams, repos and add users to them.
 
 ## Requirements
 
