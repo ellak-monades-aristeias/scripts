@@ -8,7 +8,7 @@ Dotenv.load
 # https://github.com/octokit/octokit.rb#auto-pagination
 Octokit.auto_paginate = true
 
-# Authenticate using a token of ellakdev user
+# Authenticate using a token of an org owner
 @client = Octokit::Client.new(:access_token => ENV['ACCESS_TOKEN'])
 
 # Hash of { team, member } to be created
