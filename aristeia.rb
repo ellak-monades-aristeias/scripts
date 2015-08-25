@@ -43,7 +43,11 @@ teams = {
   'smartt'                => 'tsadimas',
   'HDL-HELP'              => 'tsiourisk',
   'REMED'                 => 'dgatsios',
-  'mental-control'        => 'tsiourisk'
+  'mental-control'        => 'tsiourisk',
+  'apospaseis'            => 'stoug-apospaseis',
+  'BioTaxonomy'           => 'faysvas',
+  'studentsofeverything'  => 'Weareyond',
+  'KiCad_EDA_Greece'      => 'mmisirlis'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
