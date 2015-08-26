@@ -52,7 +52,10 @@ teams = {
   'apospaseis'            => 'stougsch',
   'BioTaxonomy'           => 'faysvas',
   'studentsofeverything'  => 'Weareyond',
-  'KiCad_EDA_Greece'      => 'mmisirlis'
+  'KiCad_EDA_Greece'      => 'mmisirlis',
+  'countrer'              => 'georgepoulos',
+  'CMake-Docker'          => 'progtologist',
+  'WeatherPiStation'      => 'xaxiris'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
