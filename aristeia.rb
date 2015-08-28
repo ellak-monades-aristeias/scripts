@@ -55,7 +55,9 @@ teams = {
   'KiCad_EDA_Greece'      => 'mmisirlis',
   'countrer'              => 'georgepoulos',
   'CMake-Docker'          => 'progtologist',
-  'WeatherPiStation'      => 'xaxiris'
+  'WeatherPiStation'      => 'xaxiris',
+  'droneLifeguard'        => 'BillyTziv',
+  'fpaUAV'                => 'konstantinabi'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
