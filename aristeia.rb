@@ -57,7 +57,10 @@ teams = {
   'CMake-Docker'          => 'progtologist',
   'WeatherPiStation'      => 'xaxiris',
   'droneLifeguard'        => 'BillyTziv',
-  'fpaUAV'                => 'konstantinabi'
+  'fpaUAV'                => 'konstantinabi',
+  'ServeyStat'            => 'Ebrachos',
+  'SocialCVBuilder'       => 'Ebrachos',
+  'FarmerCalculator'      => 'athanasiats'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
