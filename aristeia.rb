@@ -60,7 +60,9 @@ teams = {
   'fpaUAV'                => 'konstantinabi',
   'ServeyStat'            => 'Ebrachos',
   'SocialCVBuilder'       => 'Ebrachos',
-  'FarmerCalculator'      => 'athanasiats'
+  'FarmerCalculator'      => 'athanasiats',
+  'plumi'                 => 'mgogoulos',
+  'WeatherXM'             => 'nikil511'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
