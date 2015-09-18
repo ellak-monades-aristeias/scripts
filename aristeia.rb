@@ -62,7 +62,28 @@ teams = {
   'SocialCVBuilder'       => 'Ebrachos',
   'FarmerCalculator'      => 'athanasiats',
   'plumi'                 => 'mgogoulos',
-  'WeatherXM'             => 'nikil511'
+  'WeatherXM'             => 'nikil511',
+  'Edu-PreSchool'         => 'vorfan',
+  'gramel'                => 'pkt',
+  'OSM-Street-Network-Corrections-Attica' => 'jdafermos',
+  'OSM-Street-Network-Corrections-Greece' => 'jdafermos',
+  'greekmnts3d'           => 'kokkytos',
+  'OpenDeskLab'           => 'progtologist',
+  'pagkaki-project'       => 'chara88',
+  'Jarrive'               => 'DimitrisKolovos',
+  'donation-box'          => 'dkoukoul',
+  'Recommender-System-integrated-into-LAMS' => 'skarga',
+  'photometer'            => 'agelosfloros',
+  'krini'                 => 'fotini-savvas',
+  'cityZEN'               => 'piolecal',
+  'GReceptionist'         => 'tsiourisk',
+  'NursesShift'           => 'tolvog',
+  'Kadoi-mpasketes'       => 'pandoheas',
+  'filotis'               => 'aptiko',
+  'E-CULTURE'             => 'limetechnology',
+  'slic3r-el'             => 'HubITgr',
+  'Kadoi-aporrimatwn'     => 'geoanagnos4',
+  'The_Wi-Fi_seat'        => 'olgavenetsianou'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
