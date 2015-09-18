@@ -83,7 +83,8 @@ teams = {
   'E-CULTURE'             => 'limetechnology',
   'slic3r-el'             => 'HubITgr',
   'Kadoi-aporrimatwn'     => 'geoanagnos4',
-  'The_Wi-Fi_seat'        => 'olgavenetsianou'
+  'The_Wi-Fi_seat'        => 'olgavenetsianou',
+  'Ena-pagkaki-mes-stin-poli' => 'Angelaki-Sioutis-2015'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
