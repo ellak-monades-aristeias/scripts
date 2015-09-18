@@ -110,6 +110,9 @@ end
 
 puts "There are #{github_teams_names.count} teams.\n"
 
+# Gather invalid usernames in an array
+invalid_usernames = []
+
 # Create teams and assign repositories
 teams.keys.each do |team|
   if github_teams_names.include?(team)
@@ -138,7 +141,15 @@ teams.keys.each do |team|
       puts "Added #{teams[team]} to team members of #{team}..."
     rescue
       puts "#{team} - skipping team addition..."
+      invalid_usernames << teams[team]
     end
+  end
+end
+
+unless invalid_usernames.empty?
+  puts "\nThe following usernames are not valid:"
+  invalid_usernames.each do |name|
+    puts "- " + name
   end
 end
 
