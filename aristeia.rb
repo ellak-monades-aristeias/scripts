@@ -45,7 +45,7 @@ teams = {
   'ICSee-v1'              => 'AlexJoom',
   'ICStudy-v1'            => 'AlexJoom',
   'OpenMRS-translation'   => 'dmagoul',
-  'smartt'                => 'tsadimas',
+  'smartt-mobile'         => 'tsadimas',
   'HDL-HELP'              => 'tsiourisk',
   'REMED'                 => 'dgatsios',
   'mental-control'        => 'tsiourisk',
@@ -72,7 +72,6 @@ teams = {
   'pagkaki-project'       => 'chara88',
   'Jarrive'               => 'DimitrisKolovos',
   'donation-box'          => 'dkoukoul',
-  'Recommender-System-integrated-into-LAMS' => 'skarga',
   'photometer'            => 'agelosfloros',
   'krini'                 => 'fotini-savvas',
   'cityZEN'               => 'piolecal',
@@ -84,7 +83,8 @@ teams = {
   'slic3r-el'             => 'HubITgr',
   'Kadoi-aporrimatwn'     => 'geoanagnos4',
   'The_Wi-Fi_seat'        => 'olgavenetsianou',
-  'Ena-pagkaki-mes-stin-poli' => 'Angelaki-Sioutis-2015'
+  'Ena-pagkaki-mes-stin-poli' => 'Angelaki-Sioutis-2015',
+  'diabetes'              => 'pmanousis'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
