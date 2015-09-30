@@ -17,7 +17,6 @@ Octokit.auto_paginate = true
 # Hash of { team, member } to be created
 teams = {
   'ElGreco'               => 'atrianta',
-  'soda-project'          => 'theodorosploumis',
   'nagios-autoIDM'        => 'coyiotis',
   'dlimen'                => 'coyiotis',
   'PlegmaOpenBMS'         => 'nikil511',
@@ -26,7 +25,6 @@ teams = {
   'Woocommerce-Payment-Gateways-Greek-Banks' => 'bekatoros',
   'meteoclima-android'    => 'spyrosel',
   'Meteoclima-Seasonal-Forecast' => 'gvarlas',
-  'Efarmogi_Athlitikwn_Swmateiwn_Syllogwn_Gymnastiriwn' => 'dmagoul',
   'enhydris'              => 'aptiko',
   'wp-file-search'        => 'antoniom',
   'adeies-form'           => 'Jimdem',
