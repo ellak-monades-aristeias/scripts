@@ -82,7 +82,11 @@ teams = {
   'Kadoi-aporrimatwn'     => 'geoanagnos4',
   'The_Wi-Fi_seat'        => 'olgavenetsianou',
   'Ena-pagkaki-mes-stin-poli' => 'Angelaki-Sioutis-2015',
-  'diabetes'              => 'pmanousis'
+  'diabetes'              => 'pmanousis',
+  'toolkit-metabasi'      => 'akasapis',
+  'ToolKitProject'        => 'makisraz',
+  'OpenCorner-Space'      => 'roleplaying',
+  'OpenCorner-Entourage'  => 'roleplaying'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
