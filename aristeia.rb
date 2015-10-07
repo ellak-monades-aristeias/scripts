@@ -86,7 +86,9 @@ teams = {
   'toolkit-metabasi'      => 'akasapis',
   'ToolKitProject'        => 'makisraz',
   'OpenCorner-Space'      => 'roleplaying',
-  'OpenCorner-Entourage'  => 'roleplaying'
+  'OpenCorner-Entourage'  => 'roleplaying',
+  'ToolKit-Mature-OpenSource' => 'kaukakis',
+  'koha-extensions'       => 'kanellov'
    }
 
 # Existing teams, returns an array of Sawyer::Resource objects
